@@ -4,16 +4,41 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public float speed;
+    public float jumpForce;
+    public LayerMask groundMask;
+    public float groundCheckRadius;
+
+    Rigidbody2D rb;
+    bool isGrounded;
+    bool canDoubleJump;
+
     void Start()
     {
-        
+        rb = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        isGrounded = Physics2D.OverlapCircle(transform.position, groundCheckRadius, groundMask);
+        if (isGrounded)
+            canDoubleJump = true;
+
+        float moveX = Input.GetAxis("Horizontal");
+        rb.velocity = new Vector2(moveX * speed, rb.velocity.y);
+
+        if (Input.GetButtonDown("Jump"))
+        {
+            if (isGrounded)
+            {
+                rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            }
+            else if (canDoubleJump)
+            {
+                rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+                canDoubleJump = false;
+            }
+        }
     }
 
     public void TakeDamage(float damage)
