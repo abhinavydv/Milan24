@@ -7,6 +7,8 @@ public class GunFootSoldier : Enemy
     [SerializeField] GameObject bulletPrefab;
     [SerializeField] GameObject bulletSpawnPoint;
 
+    public AudioSource[] gunshots;
+
     new void Start()
     {
         base.Start();
@@ -21,5 +23,9 @@ public class GunFootSoldier : Enemy
     {
         GameObject bullet = Instantiate(bulletPrefab, bulletSpawnPoint.transform.position, Quaternion.identity);
         bullet.GetComponent<GunBullet>().direction = new Vector2(targetObject.transform.position.x - transform.position.x, 0).normalized;
+        
+        int gunshotChoice = Random.Range(0, gunshots.Length);
+        AudioSource gunshot = gunshots[gunshotChoice];
+        gunshot.PlayOneShot(gunshot.clip);
     }
 }
