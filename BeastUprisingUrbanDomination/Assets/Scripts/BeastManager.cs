@@ -22,9 +22,8 @@ public class BeastManager : MonoBehaviour
     public float timeoutElephant = 10f;
     public float timeoutLion = 7f;
 
-    float[] cooldowns;
-    float[] timeouts;
     float cooldownTimer;
+    float[] cooldownTimers;
     float timeoutTimer;
 
 
@@ -33,14 +32,14 @@ public class BeastManager : MonoBehaviour
         player.currentAnimal = monkey;
         player.currentAnimal.SetActive(true);
 
-        cooldowns = new float[] {0f, cooldownSkunk, cooldownElephant, cooldownLion };
-        timeouts = new float[] {0f, timeoutSkunk, timeoutElephant, timeoutLion};
+        cooldownTimers = new float[] {0f, 0f, 0f, 0f};
     }
 
     void Update()
     {
         Switch();
-        cooldownTimer -= Time.deltaTime;
+        for (int i = 0; i < cooldownTimers.Length; i++)
+            cooldownTimers[i] -= Time.deltaTime;
         timeoutTimer -= Time.deltaTime;
 
         if (timeoutTimer <= 0 && player.currentAnimal != monkey)
@@ -49,38 +48,41 @@ public class BeastManager : MonoBehaviour
             timeoutTimer = 0f;
         }
         Debug.Log(player.currentAnimal);
-        Debug.Log(cooldownTimer);
+        Debug.Log(string.Join(", ", cooldownTimers));
     }
 
     void Switch()
     {
-        if (cooldownTimer > 0) return;
+        if (player.currentAnimal == monkey) cooldownTimers[0] = 0f;
+        else if (player.currentAnimal == skunk) cooldownTimers[1] = cooldownSkunk;
+        else if (player.currentAnimal == elephant) cooldownTimers[2] = cooldownElephant;
+        else if (player.currentAnimal == lion) cooldownTimers[3] = cooldownLion;
 
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
+            if (player.currentAnimal == monkey) return;
             SwitchToAnimal(monkey);
-            cooldownTimer = 0f;
             timeoutTimer = 0f;
         }
 
-        else if (Input.GetKeyDown(KeyCode.Alpha2) && skunkUnlocked)
+        else if (Input.GetKeyDown(KeyCode.Alpha2) && skunkUnlocked && cooldownTimers[1] <= 0)
         {
+            if (player.currentAnimal == skunk) return;
             SwitchToAnimal(skunk);
-            cooldownTimer = cooldownSkunk;
             timeoutTimer = timeoutSkunk;
         }
 
-        else if (Input.GetKeyDown(KeyCode.Alpha3) && elephantUnlocked)
+        else if (Input.GetKeyDown(KeyCode.Alpha3) && elephantUnlocked && cooldownTimers[2] <= 0)
         {
+            if (player.currentAnimal == elephant) return;
             SwitchToAnimal(elephant);
-            cooldownTimer = cooldownElephant;
             timeoutTimer = timeoutElephant;
         }
 
-        else if (Input.GetKeyDown(KeyCode.Alpha4) && lionUnlocked)
+        else if (Input.GetKeyDown(KeyCode.Alpha4) && lionUnlocked && cooldownTimers[3] <= 0)
         {
+            if (player.currentAnimal == lion) return;
             SwitchToAnimal(lion);
-            cooldownTimer = cooldownLion;
             timeoutTimer = timeoutLion;
         }
     }
@@ -88,7 +90,6 @@ public class BeastManager : MonoBehaviour
     void SwitchToAnimal(GameObject animal)
     {
         if (player.currentAnimal == animal) return;
-        if (cooldownTimer > 0) return;
         if (player.currentAnimal != null)
             player.currentAnimal.SetActive(false);
 
