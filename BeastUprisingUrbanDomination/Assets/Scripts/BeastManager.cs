@@ -9,6 +9,7 @@ public class BeastManager : MonoBehaviour
     public GameObject skunk;
     public GameObject elephant;
     public GameObject lion;
+    public Animator[] animators;
 
     public bool skunkUnlocked = true;
     public bool elephantUnlocked = true;

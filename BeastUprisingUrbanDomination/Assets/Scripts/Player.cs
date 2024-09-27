@@ -36,6 +36,7 @@ public class Player : MonoBehaviour
                 Quit();
 
         beast = currentBeast.GetComponent<Beast>();
+        animator = currentBeast.GetComponent<Animator>();
         attack = beast.attack;
         defence = beast.defence;
         speed = beast.speed / 10f;
