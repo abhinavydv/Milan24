@@ -7,6 +7,7 @@ public abstract class Enemy : MonoBehaviour
     // stats
     [SerializeField] protected float speed = 2.0f;
     [SerializeField] protected float health = 100.0f;
+    [SerializeField] protected float defence = 20.0f;
     [SerializeField] protected float damage = 10.0f;
     [SerializeField] protected float attackInterval = 1.0f;
     [SerializeField] protected float attackRange = 1.2f;
@@ -114,7 +115,7 @@ public abstract class Enemy : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
-        health -= damage;
+        health -= damage / ((defence + 100f)/100f);
         if (health <= 0)
         {
             isDead = true;

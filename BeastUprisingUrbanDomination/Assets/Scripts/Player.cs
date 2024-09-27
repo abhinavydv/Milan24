@@ -19,6 +19,7 @@ public class Player : MonoBehaviour
     bool isGrounded;
     bool canDoubleJump;
     Beast beast;
+    public float meleeRadius;
 
     void Start()
     {
@@ -52,9 +53,25 @@ public class Player : MonoBehaviour
                 canDoubleJump = false;
             }
         }
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.L))
         {
             beast.Ability();
+        }
+        else if (Input.GetKeyDown(KeyCode.K))
+        {
+            Attack();
+        }
+    }
+
+    void Attack()
+    {
+        Collider2D[] enemiesInRange = Physics2D.OverlapCircleAll(transform.position, meleeRadius);
+        foreach (Collider2D enemy in enemiesInRange)
+        {
+            if (enemy.CompareTag("Enemy"))
+            {
+                enemy.GetComponent<Enemy>().TakeDamage(attack);
+            }
         }
     }
 
@@ -67,6 +84,6 @@ public class Player : MonoBehaviour
     void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, 10f);
+        Gizmos.DrawWireSphere(transform.position, 1.5f);
     }
 }
