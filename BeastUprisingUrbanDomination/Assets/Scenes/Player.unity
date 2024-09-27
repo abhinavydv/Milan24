@@ -168,13 +168,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f67baebb3e0cda042bba83aafad3fa94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 6
-  jumpForce: 8
-  groundMask:
+  groundLayer:
     serializedVersion: 2
     m_Bits: 0
   groundCheckRadius: 0.2
-  currentAnimal: {fileID: 0}
+  currentBeast: {fileID: 0}
+  hp: 0
+  attack: 0
+  defence: 0
+  speed: 6
+  jump: 0
 --- !u!61 &20418381
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -247,6 +250,63 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+--- !u!1001 &340646288
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1520865488576662268, guid: d9c412bb737455044bbce2b6b6b509f3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1520865488576662268, guid: d9c412bb737455044bbce2b6b6b509f3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 1520865488576662268, guid: d9c412bb737455044bbce2b6b6b509f3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1520865488576662268, guid: d9c412bb737455044bbce2b6b6b509f3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1520865488576662268, guid: d9c412bb737455044bbce2b6b6b509f3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1520865488576662268, guid: d9c412bb737455044bbce2b6b6b509f3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1520865488576662268, guid: d9c412bb737455044bbce2b6b6b509f3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1520865488576662268, guid: d9c412bb737455044bbce2b6b6b509f3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1520865488576662268, guid: d9c412bb737455044bbce2b6b6b509f3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1520865488576662268, guid: d9c412bb737455044bbce2b6b6b509f3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6881179490043265703, guid: d9c412bb737455044bbce2b6b6b509f3, type: 3}
+      propertyPath: m_Name
+      value: GunFootSoldier 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d9c412bb737455044bbce2b6b6b509f3, type: 3}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -348,13 +408,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 533489808}
+  - component: {fileID: 533489809}
   m_Layer: 0
   m_Name: Lion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &533489808
 Transform:
   m_ObjectHideFlags: 0
@@ -370,6 +431,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1603920897}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &533489809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 533489807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe04cdf9e6183514daca22ef9ed0c9f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attack: 90
+  defence: 75
+  speed: 95
+  jump: 60
+  sprayRadius: 0
 --- !u!1 &1051925417
 GameObject:
   m_ObjectHideFlags: 0
@@ -379,13 +457,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1051925418}
+  - component: {fileID: 1051925419}
   m_Layer: 0
   m_Name: Elephant
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1051925418
 Transform:
   m_ObjectHideFlags: 0
@@ -401,6 +480,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1603920897}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1051925419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1051925417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe04cdf9e6183514daca22ef9ed0c9f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attack: 30
+  defence: 200
+  speed: 20
+  jump: 0
+  sprayRadius: 0
 --- !u!1 &1134474201
 GameObject:
   m_ObjectHideFlags: 0
@@ -531,75 +627,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1205332044
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1881211690675222772, guid: 24c2395cd1dff704da5726502f3ee36a, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 7.08
-      objectReference: {fileID: 0}
-    - target: {fileID: 1881211690675222772, guid: 24c2395cd1dff704da5726502f3ee36a, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 1881211690675222772, guid: 24c2395cd1dff704da5726502f3ee36a, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1881211690675222772, guid: 24c2395cd1dff704da5726502f3ee36a, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1881211690675222772, guid: 24c2395cd1dff704da5726502f3ee36a, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1881211690675222772, guid: 24c2395cd1dff704da5726502f3ee36a, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1881211690675222772, guid: 24c2395cd1dff704da5726502f3ee36a, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1881211690675222772, guid: 24c2395cd1dff704da5726502f3ee36a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1881211690675222772, guid: 24c2395cd1dff704da5726502f3ee36a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1881211690675222772, guid: 24c2395cd1dff704da5726502f3ee36a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2172236708047522681, guid: 24c2395cd1dff704da5726502f3ee36a, type: 3}
-      propertyPath: m_Name
-      value: GunFootSoldier
-      objectReference: {fileID: 0}
-    - target: {fileID: 2172236708047522681, guid: 24c2395cd1dff704da5726502f3ee36a, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 4342412021189116509, guid: 24c2395cd1dff704da5726502f3ee36a, type: 3}
-      propertyPath: targetObject
-      value: 
-      objectReference: {fileID: 20418378}
-    - target: {fileID: 9132683321327351034, guid: 24c2395cd1dff704da5726502f3ee36a, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 24c2395cd1dff704da5726502f3ee36a, type: 3}
 --- !u!1 &1603920896
 GameObject:
   m_ObjectHideFlags: 0
@@ -631,8 +658,8 @@ Transform:
   m_Children:
   - {fileID: 1613426535}
   - {fileID: 1879288963}
-  - {fileID: 533489808}
   - {fileID: 1051925418}
+  - {fileID: 533489808}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1613426534
@@ -644,6 +671,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1613426535}
+  - component: {fileID: 1613426536}
   m_Layer: 0
   m_Name: Monkey
   m_TagString: Untagged
@@ -666,6 +694,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1603920897}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1613426536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613426534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe04cdf9e6183514daca22ef9ed0c9f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attack: 60
+  defence: 50
+  speed: 70
+  jump: 100
+  sprayRadius: 0
 --- !u!1 &1879288962
 GameObject:
   m_ObjectHideFlags: 0
@@ -675,13 +720,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1879288963}
+  - component: {fileID: 1879288964}
   m_Layer: 0
   m_Name: Skunk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1879288963
 Transform:
   m_ObjectHideFlags: 0
@@ -697,6 +743,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1603920897}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1879288964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1879288962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe04cdf9e6183514daca22ef9ed0c9f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attack: 20
+  defence: 20
+  speed: 40
+  jump: 40
+  sprayRadius: 0
 --- !u!1 &1990279845
 GameObject:
   m_ObjectHideFlags: 0
@@ -713,7 +776,7 @@ GameObject:
   - component: {fileID: 1990279851}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -797,13 +860,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f67baebb3e0cda042bba83aafad3fa94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 6
-  jumpForce: 8
-  groundMask:
+  groundLayer:
     serializedVersion: 2
     m_Bits: 64
   groundCheckRadius: 0.51
-  currentAnimal: {fileID: 0}
+  currentBeast: {fileID: 0}
+  hp: 0
+  attack: 0
+  defence: 0
+  speed: 6
+  jump: 0
 --- !u!50 &1990279849
 Rigidbody2D:
   serializedVersion: 4
@@ -893,6 +959,15 @@ MonoBehaviour:
   skunk: {fileID: 1879288962}
   elephant: {fileID: 1051925417}
   lion: {fileID: 533489807}
+  skunkUnlocked: 1
+  elephantUnlocked: 1
+  lionUnlocked: 1
+  cooldownSkunk: 2
+  cooldownElephant: 3
+  cooldownLion: 4
+  timeoutSkunk: 5
+  timeoutElephant: 10
+  timeoutLion: 7
 --- !u!1001 &6443458586553073467
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -945,6 +1020,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 3032155909230053563, guid: ffe866a6fde46314abb4970e9a5c5a15, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 5807306137659089035, guid: ffe866a6fde46314abb4970e9a5c5a15, type: 3}
+      propertyPath: groundLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -957,6 +1040,6 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 1134474204}
   - {fileID: 20418379}
-  - {fileID: 1205332044}
   - {fileID: 6443458586553073467}
   - {fileID: 1603920897}
+  - {fileID: 340646288}
