@@ -21,6 +21,9 @@ public class Robot : Enemy
     private float nextAttackTime = 0.0f;
     private bool isLaser = false;
 
+    public AudioSource[] gunshots;
+    public AudioSource laserSound;
+
     new void Start()
     {
         canAttack = false;  // We won't be using the base class's attack invocation
@@ -77,7 +80,8 @@ public class Robot : Enemy
         yield return new WaitForSeconds(laserFireDelay);
         GameObject laser = Instantiate(LaserStartPrefab, LaserSpawnPoint.transform.position, Quaternion.identity);
         yield return new WaitForSeconds(laserFireDelay / 2);
-        GameObject laserBeam = Instantiate(LaserPrefab, LaserSpawnPoint.transform.position, Quaternion.identity);
+        GameObject laserBeam = Instantiate(LaserPrefab, LaserSpawnPoint.transform.position, Quaternion.Euler(0, target.x < transform.position.x? 180 : 0, 0));
+        laserSound.PlayOneShot(laserSound.clip);
         yield return new WaitForSeconds(laserFireDelay * 1.5f);
         Destroy(laser);
         Destroy(laserBeam);
@@ -89,5 +93,8 @@ public class Robot : Enemy
         GameObject bullet = Instantiate(bulletPrefab, bulletSpawnPoint.transform.position, Quaternion.identity);
         bullet.GetComponent<GunBullet>().direction = (targetObject.transform.position - bullet.transform.position).normalized;
         bullet.GetComponent<GunBullet>().damage = (int)bulletDamage;
+        int gunshotChoice = Random.Range(0, gunshots.Length);
+        AudioSource gunshot = gunshots[gunshotChoice];
+        gunshot.PlayOneShot(gunshot.clip);
     }
 }
