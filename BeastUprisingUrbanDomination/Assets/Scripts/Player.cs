@@ -5,7 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     //public float jumpForce;
-    public LayerMask groundMask;
+    public LayerMask groundLayer;
     public float groundCheckRadius;
     public GameObject currentBeast = null;
 
@@ -18,6 +18,7 @@ public class Player : MonoBehaviour
     Rigidbody2D rb;
     bool isGrounded;
     bool canDoubleJump;
+    Beast beast;
 
     void Start()
     {
@@ -26,12 +27,13 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        attack = currentBeast.GetComponent<Beast>().attack;
-        defence = currentBeast.GetComponent<Beast>().defence;
-        speed = currentBeast.GetComponent<Beast>().speed / 10f;
-        jump = currentBeast.GetComponent<Beast>().jump / 10f;
+        beast = currentBeast.GetComponent<Beast>();
+        attack = beast.attack;
+        defence = beast.defence;
+        speed = beast.speed / 10f;
+        jump = beast.jump / 10f;
 
-        isGrounded = Physics2D.OverlapCircle(transform.position, groundCheckRadius, groundMask);
+        isGrounded = Physics2D.OverlapCircle(transform.position, groundCheckRadius, groundLayer);
         if (isGrounded)
             canDoubleJump = true;
 
@@ -50,10 +52,21 @@ public class Player : MonoBehaviour
                 canDoubleJump = false;
             }
         }
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            beast.Ability();
+        }
     }
 
     public void TakeDamage(float damage)
     {
         // Debug.Log("Player took " + damage + " damage!");
+    }
+
+
+    void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, 10f);
     }
 }

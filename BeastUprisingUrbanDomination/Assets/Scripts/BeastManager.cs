@@ -26,7 +26,7 @@ public class BeastManager : MonoBehaviour
     float timeoutTimer;
 
 
-    void Start()
+    void Awake()
     {
         player.currentBeast = monkey;
         player.currentBeast.SetActive(true);
@@ -46,8 +46,8 @@ public class BeastManager : MonoBehaviour
             SwitchToAnimal(monkey);
             timeoutTimer = 0f;
         }
-        Debug.Log(player.currentBeast);
-        Debug.Log(string.Join(", ", cooldownTimers));
+        //Debug.Log(player.currentBeast);
+        //Debug.Log(string.Join(", ", cooldownTimers));
     }
 
     void Switch()
@@ -86,13 +86,13 @@ public class BeastManager : MonoBehaviour
         }
     }
 
-    void SwitchToAnimal(GameObject animal)
+    void SwitchToAnimal(GameObject beast)
     {
-        if (player.currentBeast == animal) return;
+        if (player.currentBeast == beast) return;
         if (player.currentBeast != null)
             player.currentBeast.SetActive(false);
 
-        player.currentBeast = animal;
+        player.currentBeast = beast;
         player.currentBeast.SetActive(true);
     }
 }
