@@ -43,6 +43,6 @@ public class Player : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
-        Debug.Log("Player took " + damage + " damage!");
+        // Debug.Log("Player took " + damage + " damage!");
     }
 }

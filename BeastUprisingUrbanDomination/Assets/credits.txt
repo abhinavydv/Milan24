@@ -1,3 +1,6 @@
 free-city-backgrounds-pixel-art: https://free-game-assets.itch.io/free-city-backgrounds-pixel-art
 tileset: https://incolgames.itch.io/dungeon-platformer-tile-set-pixel-art
 Buildings: https://netherzapdos.itch.io/pixel-spaces?download
+Foot Soldier: https://www.deviantart.com/t0misaurus/art/Foot-soldier-sprites-331118947
+Foot Soldier Melee: https://craftpix.net/download/53126/
+Robot: https://elthen.itch.io/2d-pixel-art-military-incursion-bot-sprites

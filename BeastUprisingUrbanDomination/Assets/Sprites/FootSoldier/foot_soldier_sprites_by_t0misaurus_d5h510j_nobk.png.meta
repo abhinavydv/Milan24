@@ -1,0 +1,4483 @@
+fileFormatVersion: 2
+guid: c6446cfa87394424393cbce61a8d8350
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1333
+        width: 23
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da5b8b1f759115446ad13fe0f828078c
+      internalID: -1332787665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_1
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1330
+        width: 23
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e51cc7fcfa24574d933eb6481ed9c21
+      internalID: -934071735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_2
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 1332
+        width: 23
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d1dc8f8a74c714f95676825b1f4d89
+      internalID: -444590053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_3
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1279
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af5a8696d5f57e4d99d1813e7d801a4
+      internalID: -1310558274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_4
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1279
+        width: 15
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b88daef7b96a4842a85b6a5c3bc6308
+      internalID: -1841215706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_5
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1279
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fda997819271d54cb302259a526eb7f
+      internalID: 2141822493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_6
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1276
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6cdd2de93d0d2c499c36e2e81afa53e
+      internalID: -133534048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_7
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1276
+        width: 15
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c5fe95b93ce76848a3a2fc30bad58d5
+      internalID: 590062374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_8
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 1276
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18cd483361bd9344a244c59df06490e
+      internalID: 1656920764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_9
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 1278
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b06a13aa9d2eb6d4cb3a3adc7b3e8934
+      internalID: -1080643251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_10
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1278
+        width: 15
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8820acdceb340254fbee4e5401777858
+      internalID: -20324867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_11
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1278
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b1ce63aaeba7148a9c74df1167a126
+      internalID: 1433767401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_12
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1224
+        width: 19
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82fc08020b169c24781fa4961df6271e
+      internalID: -1770694142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_13
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 1223
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208d627632473934191c4e14a7bddacb
+      internalID: -828811490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_14
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 1233
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263a2948d7729094a8978c3f3d0c9a17
+      internalID: 2034452430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_15
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1233
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c66508133fa78141873789666163390
+      internalID: -635674312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_16
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1233
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6798b4c027609a34ab89fd10a05516bf
+      internalID: -257186204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_17
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1233
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41cf89a3ec7645a4d90ed98257e24b40
+      internalID: 74654886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_18
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1225
+        width: 19
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ef533f7478e4548a37d521bb95e0b6
+      internalID: -335089593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_19
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 1224
+        width: 19
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da8e8a3570c889429e3d3438bbdbd9a
+      internalID: -522413407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_20
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1212
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e900fdb18ff2b814e9c76bbe44f9e3da
+      internalID: -385783204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_21
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1213
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696069899a0976d42978418f6237884b
+      internalID: -2068662365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_22
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 1168
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d2ecf5b19ffcd488abab326e73ecca
+      internalID: -1380438006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_23
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 1202
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c83cc2c9f29def341906c5a0280d1440
+      internalID: -728244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_24
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1212
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c5c6f50830b4f448936398c904f2a87
+      internalID: -1268902704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_25
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1152
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ce7094e13b85ee4a88c2b305474e2a1
+      internalID: -1555907251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_26
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1152
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff9eeb616ad0f2c48a4aaf8f0b288713
+      internalID: 2068287381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_27
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1168
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc2c0b599d16683448f17ecb2e52b00b
+      internalID: 920071984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_28
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1168
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ebb90ae78b7373478f077a39a8f8de3
+      internalID: -1141901531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_29
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1156
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f706e8878b210469ed60c84eb9d74c
+      internalID: -416456262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_30
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 1156
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1fdcccb00f662843ac1f9d84e316186
+      internalID: 1623612909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_31
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1156
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d7da6483d11e5c4e8e6db5434621058
+      internalID: 61788573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_32
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 1154
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a742afeb9ba7d44a0d0537c70f5af6
+      internalID: 481447109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_33
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 1182
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db14ca901e4475a45b23b7b92c6b7c56
+      internalID: -535505141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_34
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1182
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad9f17b41c20eed4c96f85fee4717d73
+      internalID: -1402279839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_35
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1111
+        width: 40
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58eaad8b0e5bfd444a2b2ac54074e083
+      internalID: 932439793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_36
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1120
+        width: 22
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a12fed8936603e848bbb55745c9daf98
+      internalID: 1345468100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_37
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1120
+        width: 47
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61322bedc4732db458b89e1b774d7e36
+      internalID: 875974932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_38
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1105
+        width: 22
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2af821d175ea13f43a56d78b3ce7b879
+      internalID: -1281880735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_39
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 1105
+        width: 47
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e2136398902a847a59c817bd5e90b7
+      internalID: -1664381146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_40
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1098
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 261e4ded0d9e45b4ca6bea4c2336d0a9
+      internalID: 1873201924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_41
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1068
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c97a81fe582d94e80eaf8f227e7fc3
+      internalID: -388336434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_42
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1030
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6efdf243064c7074289a799879b498b1
+      internalID: -1336350989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_43
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1012
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57310749490124448bd6f073dc190c15
+      internalID: -541747576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_44
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 1012
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0db776e99894bd74fad77d0628b3fe16
+      internalID: -1419706144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_45
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1036
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d89d5eb0e5f5e194dbbee4a0329f93e9
+      internalID: -658217187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_46
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1017
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc2760eebd8a7e48b6b20e568f549bb
+      internalID: 1141209859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_47
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1017
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9859e267565c23d4597bfae92e58bc19
+      internalID: 981281763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_48
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1017
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c5b2dccdd3c6a2449fd6856942f0e6a
+      internalID: 1792084669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_49
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1043
+        width: 23
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b27a4203076cac42b404c6a4012a9ff
+      internalID: 523554079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_50
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1044
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae7b5fcfd834de4998348a8c1ee0524
+      internalID: -1801881898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_51
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 1044
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d12bda564419c4fb7f4dfd8f3aa903
+      internalID: -1716849302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_52
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 1013
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fdd6f9b7e9d85f4480ed96650a6c8f3
+      internalID: 1844322540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_53
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 989
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a824315ce0fb948a78398575e73fed
+      internalID: 154071619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_54
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 989
+        width: 15
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 200c844c4de30dd41be78c8036e680a9
+      internalID: 866356472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_55
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 989
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bdde146187ccd345a92f57146785f0d
+      internalID: -1686997434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_56
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 1021
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 126788b9ee254df4b894c59172ce2613
+      internalID: 1868289499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_57
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1017
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78562f9a2555f2844b14c1b002f13133
+      internalID: -616364307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_58
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1012
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea678b2d6b59f914d83792965041399c
+      internalID: 500558348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_59
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1009
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f23bfe1c29a168c4c934d8ee7f463a89
+      internalID: -626576294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_60
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 971
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e69b0b0b1cb69e64f9472164cc2e2653
+      internalID: -626545880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_61
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 971
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea8d985f92e49c345a875134553ea7b5
+      internalID: -381000053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_62
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 952
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37da097e556763342ae819fe3aa82986
+      internalID: 1055677947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_63
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 952
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c66578c7389fbf429af02fcbae2e3c3
+      internalID: -1262343186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_64
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 955
+        width: 22
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b1b3aec7bb12ec47b0df645fd923d94
+      internalID: -1661001885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_65
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 955
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c601a62770f9e48b9b7e03924ce27c
+      internalID: 2092512433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_66
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 938
+        width: 19
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce10b1510cb7df54bb940c34c4080edb
+      internalID: 461103751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_67
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 938
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1765b5d6d40145047ae9b03e69780330
+      internalID: 1316191293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_68
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 955
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c124ec7f8b63646be793af54a6573d
+      internalID: -434101417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_69
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 955
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34955d41c5619b94c8397dad512c55c0
+      internalID: -837242814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_70
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 928
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0530ca34c300284f982e68e522e7fc9
+      internalID: 180038388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_71
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 906
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f23b545d7fd158f45a0e47b47a70fe2a
+      internalID: 972929290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_72
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 902
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e5ba94995660614e9494c6dd07d2891
+      internalID: -822898153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_73
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 926
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c0d31c59173754dad961a020f2720b
+      internalID: 1016107083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_74
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 928
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f6133590f2b414bad9d9d83dd4d675
+      internalID: 2030012831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_75
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 896
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4bc239d77734c24fb9a37f1fe6013a2
+      internalID: 610242644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_76
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 884
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b50b87fe1bb76ed4b8fb249abcc93224
+      internalID: -1698252558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_77
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 876
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c8864355ffbe0440881ba0780c146b7
+      internalID: -1714545636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_78
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 875
+        width: 20
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc2a2669a5d863c46a64b9453c8c45d9
+      internalID: -804662005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_79
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 875
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99470615c00b9034d84fa201dcdda4c4
+      internalID: 719970965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_80
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 904
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d2b86aaeacc774ca88ec9afdf1030b
+      internalID: 1337110889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_81
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 906
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b66d1d36b1a3145ac2dc676d2a185a
+      internalID: 1021480524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_82
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 904
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03261e7c2c0d3544dbea63a87ad70373
+      internalID: -1766939540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_83
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 907
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0979072dcefd7f04993f23aaa9256414
+      internalID: 2139367691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_84
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 884
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c8ec844efc74945843fcb1d47a3a90
+      internalID: -635888245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_85
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 885
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd4a0cea6ba0af479ffe306852c9e6e
+      internalID: 1189103417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_86
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 827
+        width: 22
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab73f64cdf4f9d4d88f5a06ffcaa6cc
+      internalID: 2057133269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_87
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 827
+        width: 47
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3947e0d0342399c4c9da334f1b070f25
+      internalID: 1397460713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_88
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 836
+        width: 22
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d357a5fce25b7d742a6dda09811f8714
+      internalID: -188682035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_89
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 836
+        width: 47
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 119dfecc1cc891140a2ad64c26095768
+      internalID: -852023362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_90
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 827
+        width: 22
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7cb9f2cd7fc38847a58a93efd055b0d
+      internalID: 544809224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_91
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 827
+        width: 47
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb0736be94bbcb948b5229a298c0b7b9
+      internalID: 356639574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_92
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 733
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae81df7a7a3d91f4db3a18d516fd10e4
+      internalID: -943723027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_93
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 733
+        width: 31
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad6f6f0f853c93448152c068df6e150
+      internalID: 1566207366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_94
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 733
+        width: 30
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a80c2a3f9dee946b1b04719cc23e2b
+      internalID: -1806887868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_95
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 716
+        width: 32
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc20f7d4c51c85d4ca26530b1393acfb
+      internalID: 1611489090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_96
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 676
+        width: 19
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64355fd425e79684a9a756eab50a1384
+      internalID: -1824661915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_97
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 658
+        width: 31
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95538d094e24be74ca12620d174bfa91
+      internalID: 1941516476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_98
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 658
+        width: 31
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0484acebb0a966e44b2a87bfa2212f5c
+      internalID: -725529067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_99
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 657
+        width: 31
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d36e983411541054aa10605743aba557
+      internalID: -890368402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_100
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 653
+        width: 30
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62c7b9f9cdc971b49b0aa17a9020a1d2
+      internalID: 1937637406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_101
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 653
+        width: 28
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db18efefc4c40d2468cebfc2d2807dc5
+      internalID: -1566158906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_102
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 653
+        width: 30
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d34391bb6cefa44982d918bce84bb6
+      internalID: 1130326970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_103
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 653
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f9a1fb8e99a8c41913477c8d204d56
+      internalID: 712872735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_104
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 667
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c038a5d96612c74eb6a3d530c1278a5
+      internalID: -2098065937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_105
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 635
+        width: 32
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d7062eb6412dec40b3057401f574444
+      internalID: 277519207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_106
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 635
+        width: 32
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1beecf26f25d014dae90937089dffbc
+      internalID: 845837683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_107
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 635
+        width: 32
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa3b2589f69215f44b13fb89990c699c
+      internalID: 1010045585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_108
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 635
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e553267d0e9764389a3bb995ba62d1
+      internalID: 1206734836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_109
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 649
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b4385e91e7b484ab7ce58ef7a642a9
+      internalID: -831127108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_110
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 665
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33fdbb6406b975842bb06ab53b7dba50
+      internalID: -1768676906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_111
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 617
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ea40223a9ed7b4a8aa22f7bd569763
+      internalID: 870400428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_112
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 617
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecff83d7760844e4fb6fa4e6117dc9a5
+      internalID: -1612226709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_113
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 617
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee6c270ad46e6c546a6114fb15de84fa
+      internalID: 1320026036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_114
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 608
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 140e2177bf5d69c46986f1c57c5942a7
+      internalID: -1352555569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_115
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 623
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65692eef7d60d2b47ab8c60ef4b9f391
+      internalID: -1947438875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_116
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 597
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd55efe1f8c4754da1210c453a67973
+      internalID: -1839673693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_117
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 597
+        width: 15
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e31aef7e987ea1548a3d1912402390aa
+      internalID: 123258571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_118
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 597
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 520b06822303a784c812a41c0c191abb
+      internalID: 1741094591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_119
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 579
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d1dc58cb08fd9c4eba4d6284be0dcba
+      internalID: 2076542600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_120
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 579
+        width: 15
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239e5a1efc38cad4c995414580f850f8
+      internalID: -15151247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_121
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 579
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f88e8512167ff64fbe76e3c354416d3
+      internalID: 1415905224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_122
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 567
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 818eed5d995f5a1408037fa68efe66f4
+      internalID: 1472216353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_123
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 567
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ff0f4a8d358734db61d5eea1b98428
+      internalID: 2031376551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_124
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 567
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944c512ee8d8e54478d06a4a4cc427cb
+      internalID: -1679228196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_125
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 605
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd0c02b75e688b488882c91312e9e04
+      internalID: -257698717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_126
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 517
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c142afcfac838f549bb862ded2bcfff3
+      internalID: -122211514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_127
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 517
+        width: 51
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a9e779578def44eb4d6fdb8339a367
+      internalID: 16043654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_128
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 555
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd2226da480e38499d44fbf3e2cac51
+      internalID: 540621164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_129
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 555
+        width: 15
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2beb21173fee374fb9672082eb438b5
+      internalID: -1443717358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_130
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 555
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39839a186922f2344976ac8bb497f43f
+      internalID: 484734830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_131
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 542
+        width: 19
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f0fa8f46f5e8aa4d840e7e693d3c533
+      internalID: -536789096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_132
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 523
+        width: 19
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ffb33251b82aa4faf1810eb63ea215
+      internalID: 1094057159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_133
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 500
+        width: 19
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 860b2f34dce9c0a4ead76de9e45cfe49
+      internalID: -1944704019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_134
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 530
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d28f71d3bc3198b4b9ae02ada137da59
+      internalID: 1078250519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_135
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 479
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e319cb2a4c2e57f49bbdfba4f6a1ca8a
+      internalID: 1375996424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_136
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 479
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 802e175730a23dc489edb3a90bd97751
+      internalID: -832080325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_137
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 512
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5948dc3902840c4c81cb3184643183a
+      internalID: 2070519054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_138
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 463
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83e29e83f2dfd3408bcc0612a58f0ac
+      internalID: 1359128367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_139
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 463
+        width: 86
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9473e9a3c4b71d5479bf54b0045a12c9
+      internalID: -1611189302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_140
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 488
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 420c04ffb1a74944eb81dbb000049f01
+      internalID: 1947479833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_141
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 461
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063f8ddf193e8234f8ef4325a59f0ffc
+      internalID: 1534005328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_142
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 461
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d1dfd4e7121caa439875b2f4a98437b
+      internalID: -1400821255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_143
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 413
+        width: 22
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd39556a52b84964c96236b91032db0a
+      internalID: 356056020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_144
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 437
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b37151dfa4f58439b144c4b4c82838
+      internalID: -550327362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_145
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 437
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5204933b0d4bedc47b821abc1575963a
+      internalID: 365438739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_146
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 425
+        width: 22
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe3784d75589b874eb82c985bc896f32
+      internalID: -1296880885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_147
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 425
+        width: 47
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99332c73a92d89343a3000bad9ba4ce8
+      internalID: -1258751443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_148
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 407
+        width: 22
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c4cf6faa4b9bf45aa77fd1fa4b5604
+      internalID: 364405424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_149
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 413
+        width: 47
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f316cafd8e839a343bbebb8448cb07c6
+      internalID: -1176840648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_150
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 383
+        width: 22
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e998c5878ee9b64f9b6a3329fbba890
+      internalID: -1813963890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_151
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 365
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1659db166c2e5f468e5e90fce087bbb
+      internalID: -1636737832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_152
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 363
+        width: 46
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cdabfc3742533a4a8b224338173fdc1
+      internalID: -376505587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_153
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 407
+        width: 47
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f4701077eaa20049bf567df944361af
+      internalID: -1752240154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_154
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 346
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 294c87d687a8ef64eb1fe90df4619fa7
+      internalID: -377006581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_155
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 383
+        width: 47
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf4fb3c1a2a1ab4f886d85343e356f9
+      internalID: -1584199169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_156
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 319
+        width: 23
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569db166482bc17458b813ea6909b28a
+      internalID: 346812418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_157
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 365
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 292d9954921ad4e4d8f9adb0690b7543
+      internalID: 2014427124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_158
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 366
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35521b734cd1b5347ae98874b2736125
+      internalID: -1895636197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_159
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 363
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ffd7e0831c27a64f8ac7266c3d009d8
+      internalID: 1043616643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_160
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 366
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d2b70b78e6b9f4ebd302f745005f21
+      internalID: 825461387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_161
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 289
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5119f6892d083184892f5a7f38e3b2d5
+      internalID: -1166741392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_162
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 289
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6041298c8a954714399fda2721cbe20a
+      internalID: 815024011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_163
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 289
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39d2ad2e8b84bf04890b8eb236337954
+      internalID: 1826946236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_164
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 265
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13cab302dd0426c498e54c4ae55e47a6
+      internalID: 689097931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_165
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 265
+        width: 15
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 806058c62267bcd4bb2967f600487d07
+      internalID: -401652827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_166
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 265
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24f1af489083424389ba486b9c6d07b
+      internalID: -2020865430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_167
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 305
+        width: 23
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e91e104932cd09c40b39d7f4e0d16c4b
+      internalID: -685327085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_168
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 236
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9624337424a41f146a2456e25d5eb229
+      internalID: -387655300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_169
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 214
+        width: 19
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6935ed791b2df04d81d8c760f8e5f1c
+      internalID: 1630461735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_170
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 251
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6706b797012d27b41aeb6697eb7da9b4
+      internalID: 1345252725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_171
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 251
+        width: 15
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d161207a40d07ea4f89f87755b0a49ff
+      internalID: 1696497003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_172
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 251
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0edbb347dfcfb054580ec6fd84bc0251
+      internalID: 352243332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_173
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 228
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3bc2a596e3b37a4ba65006169d1dfde
+      internalID: -760114012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_174
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 211
+        width: 39
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc919841dce1ca49bfabd6e2f7683c0
+      internalID: -2100354311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_175
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 195
+        width: 19
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b71b071f2baf44db5acddaffc47417
+      internalID: -1139341703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_176
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 165
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3ad68b65db50749a2768b00b0d14ea
+      internalID: 1240107674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_177
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 166
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd4c458c9d5bdc4bbdc54d37ece7d2f
+      internalID: 1586242380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_178
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 166
+        width: 53
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd4411a2b7f1b241bca9d3617751b53
+      internalID: -581830749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_179
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 202
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3dc15d2d801a0341b386ae95c82571b
+      internalID: 114521594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_180
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 202
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 469811ffad1985247895c0c03cab86e9
+      internalID: -67781506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_181
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 152
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 127920dafd6ddb445962de1dcb807bfd
+      internalID: -608700817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_182
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 152
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651235d36c51d134fa31d48832446048
+      internalID: -1083879288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_183
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 183
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa1626c98cf6aa4dba5effa010e82bf
+      internalID: 2145470877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_184
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 110
+        width: 22
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf42a1ffd212c54fa0da74360d26b0e
+      internalID: -585489346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_185
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 116
+        width: 40
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd915589bed024f4b96297283d9db002
+      internalID: 1629486291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_186
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 133
+        width: 21
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a858c9650c7289428694b7670946651
+      internalID: 2089029120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_187
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 132
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c70f7bfb4ef51445aa9b857c9fb669e
+      internalID: 1524061427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_188
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 144
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de05cef811ce41c4f8a1195078d907e2
+      internalID: 851210444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_189
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 110
+        width: 47
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb7ad0276d15cf46986eca14b0f480d
+      internalID: 1536151703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_190
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 103
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c32ba03cda5156a46b2e2768cbc7684b
+      internalID: -1285346717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_191
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 86
+        width: 22
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96912c78db80a28419999fcf20076aaa
+      internalID: -999425657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_192
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 51
+        width: 22
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2aa14daac78b1241b5bd5a41c981abd
+      internalID: -544959496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_193
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 86
+        width: 47
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8530e12e36cff134fa272fb225832ecd
+      internalID: 1650700258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_194
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 51
+        width: 47
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a6fe9a44b411d642af233eb1cab35fc
+      internalID: -260600784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_195
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 7
+        width: 61
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 354c70badbded48488208e0fe7220612
+      internalID: -1457762308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_196
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 7
+        width: 56
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c9ed9184acb6b04d90322e7bcfa82be
+      internalID: 482187491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_197
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 7
+        width: 61
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e6759ba8b93034b8b8cc2cebe3bb2d
+      internalID: 1353915229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_0: -1332787665
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_1: -934071735
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_10: -20324867
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_100: 1937637406
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_101: -1566158906
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_102: 1130326970
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_103: 712872735
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_104: -2098065937
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_105: 277519207
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_106: 845837683
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_107: 1010045585
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_108: 1206734836
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_109: -831127108
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_11: 1433767401
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_110: -1768676906
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_111: 870400428
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_112: -1612226709
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_113: 1320026036
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_114: -1352555569
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_115: -1947438875
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_116: -1839673693
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_117: 123258571
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_118: 1741094591
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_119: 2076542600
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_12: -1770694142
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_120: -15151247
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_121: 1415905224
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_122: 1472216353
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_123: 2031376551
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_124: -1679228196
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_125: -257698717
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_126: -122211514
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_127: 16043654
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_128: 540621164
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_129: -1443717358
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_13: -828811490
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_130: 484734830
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_131: -536789096
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_132: 1094057159
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_133: -1944704019
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_134: 1078250519
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_135: 1375996424
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_136: -832080325
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_137: 2070519054
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_138: 1359128367
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_139: -1611189302
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_14: 2034452430
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_140: 1947479833
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_141: 1534005328
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_142: -1400821255
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_143: 356056020
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_144: -550327362
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_145: 365438739
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_146: -1296880885
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_147: -1258751443
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_148: 364405424
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_149: -1176840648
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_15: -635674312
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_150: -1813963890
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_151: -1636737832
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_152: -376505587
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_153: -1752240154
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_154: -377006581
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_155: -1584199169
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_156: 346812418
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_157: 2014427124
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_158: -1895636197
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_159: 1043616643
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_16: -257186204
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_160: 825461387
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_161: -1166741392
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_162: 815024011
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_163: 1826946236
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_164: 689097931
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_165: -401652827
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_166: -2020865430
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_167: -685327085
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_168: -387655300
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_169: 1630461735
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_17: 74654886
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_170: 1345252725
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_171: 1696497003
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_172: 352243332
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_173: -760114012
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_174: -2100354311
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_175: -1139341703
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_176: 1240107674
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_177: 1586242380
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_178: -581830749
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_179: 114521594
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_18: -335089593
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_180: -67781506
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_181: -608700817
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_182: -1083879288
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_183: 2145470877
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_184: -585489346
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_185: 1629486291
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_186: 2089029120
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_187: 1524061427
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_188: 851210444
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_189: 1536151703
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_19: -522413407
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_190: -1285346717
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_191: -999425657
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_192: -544959496
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_193: 1650700258
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_194: -260600784
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_195: -1457762308
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_196: 482187491
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_197: 1353915229
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_2: -444590053
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_20: -385783204
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_21: -2068662365
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_22: -1380438006
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_23: -728244
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_24: -1268902704
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_25: -1555907251
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_26: 2068287381
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_27: 920071984
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_28: -1141901531
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_29: -416456262
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_3: -1310558274
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_30: 1623612909
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_31: 61788573
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_32: 481447109
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_33: -535505141
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_34: -1402279839
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_35: 932439793
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_36: 1345468100
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_37: 875974932
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_38: -1281880735
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_39: -1664381146
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_4: -1841215706
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_40: 1873201924
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_41: -388336434
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_42: -1336350989
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_43: -541747576
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_44: -1419706144
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_45: -658217187
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_46: 1141209859
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_47: 981281763
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_48: 1792084669
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_49: 523554079
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_5: 2141822493
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_50: -1801881898
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_51: -1716849302
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_52: 1844322540
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_53: 154071619
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_54: 866356472
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_55: -1686997434
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_56: 1868289499
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_57: -616364307
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_58: 500558348
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_59: -626576294
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_6: -133534048
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_60: -626545880
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_61: -381000053
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_62: 1055677947
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_63: -1262343186
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_64: -1661001885
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_65: 2092512433
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_66: 461103751
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_67: 1316191293
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_68: -434101417
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_69: -837242814
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_7: 590062374
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_70: 180038388
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_71: 972929290
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_72: -822898153
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_73: 1016107083
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_74: 2030012831
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_75: 610242644
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_76: -1698252558
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_77: -1714545636
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_78: -804662005
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_79: 719970965
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_8: 1656920764
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_80: 1337110889
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_81: 1021480524
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_82: -1766939540
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_83: 2139367691
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_84: -635888245
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_85: 1189103417
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_86: 2057133269
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_87: 1397460713
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_88: -188682035
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_89: -852023362
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_9: -1080643251
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_90: 544809224
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_91: 356639574
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_92: -943723027
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_93: 1566207366
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_94: -1806887868
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_95: 1611489090
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_96: -1824661915
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_97: 1941516476
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_98: -725529067
+      foot_soldier_sprites_by_t0misaurus_d5h510j_nobk_99: -890368402
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
