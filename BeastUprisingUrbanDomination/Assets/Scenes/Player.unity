@@ -302,6 +302,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GunFootSoldier 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6881179490043265703, guid: d9c412bb737455044bbce2b6b6b509f3, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -448,6 +452,14 @@ MonoBehaviour:
   speed: 95
   jump: 60
   sprayRadius: 0
+  sprayCooldown: 0
+  sprayCooldownTimer: 0
+  roarBuff: 0
+  roarCooldown: 0
+  roarCooldownTimer: 0
+  roarEffect: 0
+  roarEffectTimer: 0
+  roarActive: 0
 --- !u!1 &1051925417
 GameObject:
   m_ObjectHideFlags: 0
@@ -497,6 +509,14 @@ MonoBehaviour:
   speed: 20
   jump: 0
   sprayRadius: 0
+  sprayCooldown: 0
+  sprayCooldownTimer: 0
+  roarBuff: 0
+  roarCooldown: 0
+  roarCooldownTimer: 0
+  roarEffect: 0
+  roarEffectTimer: 0
+  roarActive: 0
 --- !u!1 &1134474201
 GameObject:
   m_ObjectHideFlags: 0
@@ -711,6 +731,14 @@ MonoBehaviour:
   speed: 70
   jump: 100
   sprayRadius: 0
+  sprayCooldown: 0
+  sprayCooldownTimer: 0
+  roarBuff: 0
+  roarCooldown: 0
+  roarCooldownTimer: 0
+  roarEffect: 0
+  roarEffectTimer: 0
+  roarActive: 0
 --- !u!1 &1879288962
 GameObject:
   m_ObjectHideFlags: 0
@@ -760,6 +788,14 @@ MonoBehaviour:
   speed: 40
   jump: 40
   sprayRadius: 0
+  sprayCooldown: 0
+  sprayCooldownTimer: 0
+  roarBuff: 0
+  roarCooldown: 0
+  roarCooldownTimer: 0
+  roarEffect: 0
+  roarEffectTimer: 0
+  roarActive: 0
 --- !u!1 &1990279845
 GameObject:
   m_ObjectHideFlags: 0
