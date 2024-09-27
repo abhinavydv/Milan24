@@ -8,18 +8,21 @@ public class Player : MonoBehaviour
     public LayerMask groundLayer;
     public float groundCheckRadius;
     public GameObject currentBeast = null;
+    public Animator animator;
 
-    public float hp;
+    public float health;
     public float attack;
     public float defence;
     public float speed;
     public float jump;
 
     Rigidbody2D rb;
+    public bool isDead;
     bool isGrounded;
     bool canDoubleJump;
     Beast beast;
     public float meleeRadius;
+    float deathTime = 0f;
 
     void Start()
     {
@@ -28,6 +31,10 @@ public class Player : MonoBehaviour
 
     void Update()
     {
+        if (isDead)
+            if (Time.time - deathTime > 1.0f)
+                Quit();
+
         beast = currentBeast.GetComponent<Beast>();
         attack = beast.attack;
         defence = beast.defence;
@@ -40,6 +47,18 @@ public class Player : MonoBehaviour
 
         float moveX = Input.GetAxis("Horizontal");
         rb.velocity = new Vector2(moveX * speed, rb.velocity.y);
+
+        if (moveX == 0)
+            animator.SetBool("isRunning", false);
+        else
+        {
+            transform.localScale = new Vector2(Mathf.Sign(rb.velocity.x), 1f);
+            animator.SetBool("isRunning", true);
+        }
+        if (isGrounded)
+            animator.SetBool("isJumping", false);
+        else
+            animator.SetBool("isJumping", true);
 
         if (Input.GetButtonDown("Jump"))
         {
@@ -59,7 +78,12 @@ public class Player : MonoBehaviour
         }
         else if (Input.GetKeyDown(KeyCode.K))
         {
+            animator.SetBool("isAttacking", true);
             Attack();
+        }
+        else
+        {
+            animator.SetBool("isAttacking", false);
         }
     }
 
@@ -77,9 +101,25 @@ public class Player : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
-        // Debug.Log("Player took " + damage + " damage!");
+        health -= damage / ((defence + 100f) / 100f);
+        if (health <= 0)
+        {
+            isDead = true;
+            deathTime = Time.time;
+            animator.SetBool("isDead", true);
+            //Die();
+        }
     }
 
+    public void Quit()
+    {
+#if UNITY_STANDALONE
+        Application.Quit();
+#endif
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#endif
+    }
 
     void OnDrawGizmosSelected()
     {

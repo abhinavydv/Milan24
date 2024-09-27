@@ -119,6 +119,7 @@ public abstract class Enemy : MonoBehaviour
         if (health <= 0)
         {
             isDead = true;
+            deathTime = Time.time;
             animator.SetBool("isDead", true);
             Die();
         }
