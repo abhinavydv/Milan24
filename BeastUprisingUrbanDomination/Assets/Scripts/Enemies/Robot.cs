@@ -81,7 +81,7 @@ public class Robot : Enemy
         GameObject laser = Instantiate(LaserStartPrefab, LaserSpawnPoint.transform.position, Quaternion.identity);
         yield return new WaitForSeconds(laserFireDelay / 2);
         GameObject laserBeam = Instantiate(LaserPrefab, LaserSpawnPoint.transform.position, Quaternion.Euler(0, target.x < transform.position.x? 180 : 0, 0));
-        laserBeam.GetComponent<LaserBeam>().damage = (int)laserDamage;
+        laserBeam.GetComponentInChildren<LaserBeam>().damage = (int)laserDamage;
         laserSound.PlayOneShot(laserSound.clip);
         yield return new WaitForSeconds(laserFireDelay * 1.5f);
         Destroy(laser);
