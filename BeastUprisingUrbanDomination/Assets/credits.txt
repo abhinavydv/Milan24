@@ -4,3 +4,7 @@ Buildings: https://netherzapdos.itch.io/pixel-spaces?download
 Foot Soldier: https://www.deviantart.com/t0misaurus/art/Foot-soldier-sprites-331118947
 Foot Soldier Melee: https://craftpix.net/download/53126/
 Robot: https://elthen.itch.io/2d-pixel-art-military-incursion-bot-sprites
+Monkey: https://www.gameartguppy.com/shop/monkey-game-character-sprites/
+Bear: https://itchio-mirror.cb031a832f44726753d6267436f3b414.r2.cloudflarestorage.com/upload2/game/2991961/11551150?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=3edfcce40115d057d0b5606758e7e9ee%2F20240927%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20240927T185328Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=e039be3d7fe5c7862fe781c62b12b3e02232d47f6bf201982ddf00a04a957edf
+Skunk: https://itchio-mirror.cb031a832f44726753d6267436f3b414.r2.cloudflarestorage.com/upload2/game/1054877/3884992?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=3edfcce40115d057d0b5606758e7e9ee%2F20240927%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20240927T185711Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=e14e479d755542aa5a9df0973d254d4f495dbaca95a105f7209dd54e240e7f14
+Lion: https://spritedatabase.net/file/2748

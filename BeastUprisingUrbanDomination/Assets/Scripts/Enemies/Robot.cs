@@ -78,6 +78,7 @@ public class Robot : Enemy
         GameObject laser = Instantiate(LaserStartPrefab, LaserSpawnPoint.transform.position, Quaternion.identity);
         yield return new WaitForSeconds(laserFireDelay / 2);
         GameObject laserBeam = Instantiate(LaserPrefab, LaserSpawnPoint.transform.position, Quaternion.identity);
+        laserBeam.GetComponent<LaserBeam>().damage = (int)laserDamage;
         yield return new WaitForSeconds(laserFireDelay * 1.5f);
         Destroy(laser);
         Destroy(laserBeam);

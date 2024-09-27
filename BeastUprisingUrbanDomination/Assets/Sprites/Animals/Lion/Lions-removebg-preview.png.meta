@@ -1,0 +1,1657 @@
+fileFormatVersion: 2
+guid: 5f56c57614fea46448fe146708d5ac82
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lions-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 457
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ecba1468a169c498e5eec7bb81461c
+      internalID: 356266481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 457
+        width: 47
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fed87c239f98da4a98759c57ab9b701
+      internalID: 691038878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 457
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4816495ff5be5645962d87df2261664
+      internalID: 750722848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 457
+        width: 54
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654b1c272f844fe4fbeff00f785f3320
+      internalID: 561253408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 457
+        width: 53
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f69ff936854f9db438bbeb001aa66bca
+      internalID: 867228589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 457
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54aedfdb7d3a86049963f62a698bf887
+      internalID: 1104929165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 457
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5437cf8a72d458d47841b3fd69746944
+      internalID: -1267552189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 457
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d7b9abe60624c4bb2383d40da7c783
+      internalID: 820397602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 457
+        width: 53
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfafb062904d89d4d83c0a01ee77cf99
+      internalID: -1838816263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 415
+        width: 58
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f79ac18be4428a4d82def2453b7ef81
+      internalID: 205582648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 415
+        width: 59
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d8cef05fe5d3d4aa95526ba971f6ea
+      internalID: -1831341256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 415
+        width: 59
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77cdaee386f0ca84ba636955c4706747
+      internalID: -1620891408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 415
+        width: 57
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972b99e18301c094ebfd22557f79bb84
+      internalID: -122944404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 415
+        width: 58
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca180aa1d359d249bdd931f49689469
+      internalID: 1009924984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 415
+        width: 56
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a5d9f8158092f54da72ff4f40678c93
+      internalID: -1174014220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 415
+        width: 59
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 613d316a0515bbc46a4e16676aff174a
+      internalID: 598953910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 415
+        width: 59
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 060a615cbeaa15d41aa3800d709d5be0
+      internalID: -764440623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 380
+        width: 60
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ae15166f7c17146a38cdbc64a6e11a
+      internalID: 1919182136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 380
+        width: 60
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da987ebed1700f46ac169d8f5fd16bc
+      internalID: -941440238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 380
+        width: 59
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b33f3145a3b0c3142a5baf3d28c5f410
+      internalID: -1998798523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 334
+        width: 62
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a9085c0485d7f4c93b7fadffd00ede
+      internalID: 1027854994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 334
+        width: 64
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44bb4b81c59929f4fb55ebd7777fab78
+      internalID: -170719556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 340
+        width: 65
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41bdb04dfa889da4486df758343b421d
+      internalID: 41145708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 339
+        width: 66
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df99352a1beea414f8d15bf0c5ca98fd
+      internalID: -2085574329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 334
+        width: 67
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20442ee56df67c645aa5ed5a0afc33b3
+      internalID: -2026956923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 334
+        width: 66
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd3c85dcc777baf4bb2bfc20c3b45ede
+      internalID: 269872590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 334
+        width: 62
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4ce11b63a0a73343a271b6a3de039d9
+      internalID: -1722897499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 296
+        width: 61
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f1d880564ff34b48be3903bc30570f4
+      internalID: 857483883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 296
+        width: 61
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f84670e7e806b774fa84277cd25f26d5
+      internalID: -484021725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 296
+        width: 62
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d690b6ee710aeb04999704eae1345c2f
+      internalID: -219825651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 246
+        width: 66
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaed38fe7dc19bd409518db56b6c6973
+      internalID: -1485262501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 246
+        width: 67
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9011af87c38724fbda73e59561050e
+      internalID: -179751195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 250
+        width: 67
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4ed6ac0d40b4844a8f94b9187a10d47
+      internalID: -374061303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 246
+        width: 65
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 454ebc0625b7d3d44ab7b91c237d0aca
+      internalID: 962848576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 202
+        width: 61
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: febd8f1d4a165834bb5e8a939d7cb3fd
+      internalID: -923328455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 201
+        width: 62
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f98060dbb3ecd478cd880305bbe0c8
+      internalID: 975172145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_36
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 201
+        width: 63
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae528c1a301f4134596c23655d918e33
+      internalID: -2144683059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_37
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 201
+        width: 63
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eebc3d2ad5d8b25419119c4124b0a2dc
+      internalID: -130007292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_38
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 201
+        width: 64
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd601526a1411f4b9b40d47ecd6a5b0
+      internalID: -1320265969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_39
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 201
+        width: 65
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd45a581e96bbf45a17977fc076902b
+      internalID: -547538413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_40
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 201
+        width: 66
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af800247e17208d49bc1cce839448694
+      internalID: 2140634450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_41
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 169
+        width: 65
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2f14cd426a561542b571cc4c08f92fe
+      internalID: 717049576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_42
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 169
+        width: 63
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ed538c5e386bb446a2fc113c1cdf013
+      internalID: -949099036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_43
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 169
+        width: 63
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf7ab48aef860a4991ab1b8da40bf67
+      internalID: 1428222140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_44
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 169
+        width: 61
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1db178e8fe42e41469a7c5c10c79617c
+      internalID: 1586612972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_45
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 169
+        width: 62
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6276de3056a56a46a51805e5d0bfeab
+      internalID: 1237241960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_46
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 138
+        width: 492
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c0cbbe195dd82429d84a80881320f7
+      internalID: 384701938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_47
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 123
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c4b43a853f3bc489008dcd7d05a364
+      internalID: -999723026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_48
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 123
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 649c1584fedf7a74d92b53c1362c932e
+      internalID: 183035475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_49
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 123
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd930366c5cff0468f719fad9770b1e
+      internalID: 1862248169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_50
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 123
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2f56aeee599254dbb3d9f904039c3c
+      internalID: 482050845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_51
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 123
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdfb7ef0f045f7844aba89f33c087d88
+      internalID: 1743192107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_52
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 123
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114e0f93dc1a3e8408710b0db7e10680
+      internalID: -920818197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_53
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 123
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d663812366d27fa479b9e9e2bc1fcc04
+      internalID: -1024067089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_54
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 123
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e5861c5e9d67640a5e08d889bd84f9
+      internalID: 140978177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_55
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 123
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07894ccd2390cd1458a319a42a8f6ea6
+      internalID: -859776079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_56
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 123
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692e3ab3fc587484e91d3ad046488811
+      internalID: 1054498243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_57
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 88
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 506a3730d923954488a0fbb868b7bc2a
+      internalID: -1531214510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_58
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 88
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b854aa57a58e54a9ffbbb2feb63b3b
+      internalID: -1933011831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_59
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 92
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6463a758dc571dc45b787096bd10ab27
+      internalID: 649992689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_60
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 92
+        width: 33
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ad5763c3e82f24fa84502cb2ccb0bc
+      internalID: -1314187143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_61
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 89
+        width: 35
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7e1dd10ec48364e83834efc4084de8
+      internalID: 1117018201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_62
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 89
+        width: 36
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4f88d3689e44c49be899319f95a318
+      internalID: 1234904640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_63
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 89
+        width: 33
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1baf658ca09e5d4d9bb9292fd09aa99
+      internalID: -913951075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_64
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 88
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf4c8fc99e5cd34e9c3cd824d463401
+      internalID: -577207875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_65
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 88
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a359111499a54aa42994c5582123167e
+      internalID: -1459920949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_66
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 89
+        width: 33
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8929f53b6e723442a2e3863c03c1749
+      internalID: -1192973390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lions-removebg-preview_67
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 62
+        width: 37
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1883f32627cfcca4e9104bba79b96e6c
+      internalID: 883064222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Lions-removebg-preview_0: 356266481
+      Lions-removebg-preview_1: 691038878
+      Lions-removebg-preview_10: -1831341256
+      Lions-removebg-preview_100: 1527363205
+      Lions-removebg-preview_101: -61092110
+      Lions-removebg-preview_11: -1620891408
+      Lions-removebg-preview_12: -122944404
+      Lions-removebg-preview_13: 1009924984
+      Lions-removebg-preview_14: -1174014220
+      Lions-removebg-preview_15: 598953910
+      Lions-removebg-preview_16: -764440623
+      Lions-removebg-preview_17: 1919182136
+      Lions-removebg-preview_18: -941440238
+      Lions-removebg-preview_19: -1998798523
+      Lions-removebg-preview_2: 750722848
+      Lions-removebg-preview_20: 1027854994
+      Lions-removebg-preview_21: -170719556
+      Lions-removebg-preview_22: 41145708
+      Lions-removebg-preview_23: -2085574329
+      Lions-removebg-preview_24: -2026956923
+      Lions-removebg-preview_25: 269872590
+      Lions-removebg-preview_26: -1722897499
+      Lions-removebg-preview_27: 857483883
+      Lions-removebg-preview_28: -484021725
+      Lions-removebg-preview_29: -219825651
+      Lions-removebg-preview_3: 561253408
+      Lions-removebg-preview_30: -1485262501
+      Lions-removebg-preview_31: -179751195
+      Lions-removebg-preview_32: -374061303
+      Lions-removebg-preview_33: 962848576
+      Lions-removebg-preview_34: -923328455
+      Lions-removebg-preview_35: 975172145
+      Lions-removebg-preview_36: -2144683059
+      Lions-removebg-preview_37: -130007292
+      Lions-removebg-preview_38: -1320265969
+      Lions-removebg-preview_39: -547538413
+      Lions-removebg-preview_4: 867228589
+      Lions-removebg-preview_40: 2140634450
+      Lions-removebg-preview_41: 717049576
+      Lions-removebg-preview_42: -949099036
+      Lions-removebg-preview_43: 1428222140
+      Lions-removebg-preview_44: 1586612972
+      Lions-removebg-preview_45: 1237241960
+      Lions-removebg-preview_46: 384701938
+      Lions-removebg-preview_47: -999723026
+      Lions-removebg-preview_48: 183035475
+      Lions-removebg-preview_49: 1862248169
+      Lions-removebg-preview_5: 1104929165
+      Lions-removebg-preview_50: 482050845
+      Lions-removebg-preview_51: 1743192107
+      Lions-removebg-preview_52: -920818197
+      Lions-removebg-preview_53: -1024067089
+      Lions-removebg-preview_54: 140978177
+      Lions-removebg-preview_55: -859776079
+      Lions-removebg-preview_56: 1054498243
+      Lions-removebg-preview_57: -1531214510
+      Lions-removebg-preview_58: -1933011831
+      Lions-removebg-preview_59: 649992689
+      Lions-removebg-preview_6: -1267552189
+      Lions-removebg-preview_60: -1314187143
+      Lions-removebg-preview_61: 1117018201
+      Lions-removebg-preview_62: 1234904640
+      Lions-removebg-preview_63: -913951075
+      Lions-removebg-preview_64: -577207875
+      Lions-removebg-preview_65: -1459920949
+      Lions-removebg-preview_66: -1192973390
+      Lions-removebg-preview_67: 883064222
+      Lions-removebg-preview_68: 1614041848
+      Lions-removebg-preview_69: -1646890759
+      Lions-removebg-preview_7: 820397602
+      Lions-removebg-preview_70: -99556263
+      Lions-removebg-preview_71: 1553420328
+      Lions-removebg-preview_72: -555666096
+      Lions-removebg-preview_73: 1625960347
+      Lions-removebg-preview_74: 46260637
+      Lions-removebg-preview_75: 156329707
+      Lions-removebg-preview_76: -400385052
+      Lions-removebg-preview_77: 474151430
+      Lions-removebg-preview_78: -858634480
+      Lions-removebg-preview_79: 236205079
+      Lions-removebg-preview_8: -1838816263
+      Lions-removebg-preview_80: 1632032769
+      Lions-removebg-preview_81: 349520881
+      Lions-removebg-preview_82: -1404642220
+      Lions-removebg-preview_83: -482578751
+      Lions-removebg-preview_84: 1472890082
+      Lions-removebg-preview_85: 429183653
+      Lions-removebg-preview_86: 1763473114
+      Lions-removebg-preview_87: 1196310905
+      Lions-removebg-preview_88: -1372260691
+      Lions-removebg-preview_89: -1390911455
+      Lions-removebg-preview_9: 205582648
+      Lions-removebg-preview_90: 1005342278
+      Lions-removebg-preview_91: 860061360
+      Lions-removebg-preview_92: -1996873075
+      Lions-removebg-preview_93: 1012454537
+      Lions-removebg-preview_94: -418942080
+      Lions-removebg-preview_95: -354223302
+      Lions-removebg-preview_96: 1929225753
+      Lions-removebg-preview_97: -2022475423
+      Lions-removebg-preview_98: 1188696152
+      Lions-removebg-preview_99: 1561659590
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
