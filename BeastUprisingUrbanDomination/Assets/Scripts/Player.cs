@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
     public float jumpForce;
     public LayerMask groundMask;
     public float groundCheckRadius;
+    public GameObject currentAnimal = null;
 
     Rigidbody2D rb;
     bool isGrounded;
@@ -39,6 +40,7 @@ public class Player : MonoBehaviour
                 canDoubleJump = false;
             }
         }
+        Debug.Log(currentAnimal);
     }
 
     public void TakeDamage(float damage)

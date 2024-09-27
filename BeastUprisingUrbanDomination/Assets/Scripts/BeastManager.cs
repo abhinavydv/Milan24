@@ -4,17 +4,16 @@ using UnityEngine;
 
 public class BeastManager : MonoBehaviour
 {
+    public Player player;
     public GameObject monkey;
     public GameObject skunk;
     public GameObject elephant;
     public GameObject lion;
 
-    GameObject currentAnimal;
-
     void Start()
     {
-        currentAnimal = monkey;
-        currentAnimal.SetActive(true);
+        player.currentAnimal = monkey;
+        player.currentAnimal.SetActive(true);
     }
 
     void Update()
@@ -34,10 +33,10 @@ public class BeastManager : MonoBehaviour
 
     void SwitchToAnimal(GameObject animal)
     {
-        if (currentAnimal != null)
-            currentAnimal.SetActive(false);
+        if (player.currentAnimal != null)
+            player.currentAnimal.SetActive(false);
 
-        currentAnimal = animal;
-        currentAnimal.SetActive(true);
+        player.currentAnimal = animal;
+        player.currentAnimal.SetActive(true);
     }
 }
