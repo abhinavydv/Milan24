@@ -11,7 +11,7 @@ public abstract class Enemy : MonoBehaviour
     [SerializeField] protected float attackInterval = 1.0f;
     [SerializeField] protected float attackRange = 1.2f;
     [SerializeField] protected float seekDistance = 30.0f;
-    [SerializeField] protected bool canAttack = true;
+    protected bool canAttack = true;
 
     // references
     protected GameObject targetObject;

@@ -9,6 +9,7 @@ public class Robot : Enemy
     [SerializeField] float bulletDamage = 10.0f;
     [SerializeField] float bulletFireDelay = 1.0f;
 
+    [SerializeField] GameObject LaserStartPrefab;
     [SerializeField] GameObject LaserPrefab;
     [SerializeField] GameObject LaserSpawnPoint;
     [SerializeField] float laserDamage = 30.0f;
@@ -22,8 +23,9 @@ public class Robot : Enemy
 
     new void Start()
     {
+        canAttack = false;  // We won't be using the base class's attack invocation
         base.Start();
-        stoppingDistance = attackRange * .9f;
+        stoppingDistance = attackRange * .95f;
     }
 
     new void Update()
@@ -37,7 +39,10 @@ public class Robot : Enemy
         animator.SetBool("isFiringBullets", false);
         if (Time.time > nextAttackTime)
         {
-            Attack();
+            if (direction == 0)
+            {
+                Attack();
+            }
             nextAttackTime = Time.time + Random.Range(minAttackInterval, maxAttackInterval);
             if (Random.Range(0.0f, 1.0f) < 0.2f)
             {
@@ -70,16 +75,19 @@ public class Robot : Enemy
     IEnumerator ActivateBeam()
     {
         yield return new WaitForSeconds(laserFireDelay);
-        GameObject laser = Instantiate(LaserPrefab, LaserSpawnPoint.transform.position, Quaternion.identity);
-        laser.GetComponent<GunBullet>().direction = new Vector2(targetObject.transform.position.x - transform.position.x, 0).normalized;
-        laser.GetComponent<GunBullet>().damage = (int)laserDamage;
+        GameObject laser = Instantiate(LaserStartPrefab, LaserSpawnPoint.transform.position, Quaternion.identity);
+        yield return new WaitForSeconds(laserFireDelay / 2);
+        GameObject laserBeam = Instantiate(LaserPrefab, LaserSpawnPoint.transform.position, Quaternion.identity);
+        yield return new WaitForSeconds(laserFireDelay * 1.5f);
+        Destroy(laser);
+        Destroy(laserBeam);
     }
 
     IEnumerator FireBullets()
     {
         yield return new WaitForSeconds(bulletFireDelay);
         GameObject bullet = Instantiate(bulletPrefab, bulletSpawnPoint.transform.position, Quaternion.identity);
-        bullet.GetComponent<GunBullet>().direction = new Vector2(targetObject.transform.position.x - transform.position.x, 0).normalized;
+        bullet.GetComponent<GunBullet>().direction = (targetObject.transform.position - bullet.transform.position).normalized;
         bullet.GetComponent<GunBullet>().damage = (int)bulletDamage;
     }
 }

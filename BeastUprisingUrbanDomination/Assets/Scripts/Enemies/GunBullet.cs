@@ -7,7 +7,7 @@ public class GunBullet : MonoBehaviour
     [SerializeField] float speed = 6f;
     [SerializeField] float lifeTime = 10f;
     [SerializeField] public int damage = 1;
-    [SerializeField] public Vector2 direction = Vector2.right;
+    [SerializeField] public Vector3 direction = Vector3.zero;
 
     private float lifeTimeStart;
 

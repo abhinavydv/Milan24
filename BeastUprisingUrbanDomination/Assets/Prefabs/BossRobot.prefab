@@ -128,9 +128,7 @@ MonoBehaviour:
   damage: 10
   attackInterval: 1
   attackRange: 12
-  seekDistance: 30
-  canAttack: 0
-  targetObject: {fileID: 0}
+  seekDistance: 300
   animator: {fileID: 1681118434929960873}
   stoppingDistance: 1
   multiplier: 1
@@ -138,7 +136,8 @@ MonoBehaviour:
   bulletSpawnPoint: {fileID: 5126057415253304139}
   bulletDamage: 10
   bulletFireDelay: 0.5
-  LaserPrefab: {fileID: 8324766929948975925, guid: 5aadf7eab00fa1148b664c10f5dd8a4c, type: 3}
+  LaserStartPrefab: {fileID: 8369823180393250785, guid: 89d945c5262d4d44c906ffdb443d5e42, type: 3}
+  LaserPrefab: {fileID: 3865601722227512651, guid: 5730494041051e646913a55d3818e74a, type: 3}
   LaserSpawnPoint: {fileID: 7162677364034757184}
   laserDamage: 10
   laserFireDelay: 0.5
@@ -272,7 +271,7 @@ Transform:
   m_GameObject: {fileID: 7162677364034757184}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.214, y: -0.012, z: 0}
+  m_LocalPosition: {x: 0.214, y: -0.012, z: -0.33}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
