@@ -40,7 +40,6 @@ public class Player : MonoBehaviour
                 canDoubleJump = false;
             }
         }
-        Debug.Log(currentAnimal);
     }
 
     public void TakeDamage(float damage)
