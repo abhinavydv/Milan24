@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 3017851138477032629}
   m_Layer: 0
   m_Name: BossRobot
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -125,6 +125,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2
   health: 100
+  defence: 80
   damage: 10
   attackInterval: 1
   attackRange: 12
@@ -143,6 +144,12 @@ MonoBehaviour:
   laserFireDelay: 0.5
   minAttackInterval: 1
   maxAttackInterval: 3
+  gunshots:
+  - {fileID: 1164060777553057609, guid: 40312a542c42f694eb683c3871d2b0f4, type: 3}
+  - {fileID: 8446286989127613224, guid: 12e209c75decdb5419b0450875203411, type: 3}
+  - {fileID: 2624399216092776191, guid: 296d3ea1d1ccaab4e82a81019d920e21, type: 3}
+  - {fileID: 566814221407423240, guid: 8097c2e4bda02d344b7f04b0df64f6f9, type: 3}
+  laserSound: {fileID: 262757717296274929, guid: 94808bc1eb689d949947b14dcd13654b, type: 3}
 --- !u!50 &7542148824247716854
 Rigidbody2D:
   serializedVersion: 4

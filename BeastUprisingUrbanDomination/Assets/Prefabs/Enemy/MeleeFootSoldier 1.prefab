@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 725357802205050013}
   m_Layer: 0
   m_Name: MeleeFootSoldier 1
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -123,14 +123,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2
   health: 100
+  defence: 40
   damage: 10
   attackInterval: 1.5
   attackRange: 1.5
   seekDistance: 30
-  targetObject: {fileID: 0}
   animator: {fileID: 7471072937734948549}
   stoppingDistance: 1
   multiplier: 1
+  punches:
+  - {fileID: 1640781058292853085, guid: 4a6536230868184429879bd0c0c6a99e, type: 3}
+  - {fileID: 5458740641464936721, guid: 9f433d7f345d67c47b95c57a7ba57c92, type: 3}
+  - {fileID: 6186324532968864529, guid: 9ece8eb3d5d0d1442a929e372c1b8ff9, type: 3}
 --- !u!61 &8918574886648302280
 BoxCollider2D:
   m_ObjectHideFlags: 0
