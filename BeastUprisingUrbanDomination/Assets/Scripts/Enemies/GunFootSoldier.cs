@@ -7,13 +7,26 @@ public class GunFootSoldier : Enemy
     [SerializeField] GameObject bulletPrefab;
     [SerializeField] GameObject bulletSpawnPoint;
 
-    AudioSource[] gunshots;
+    public List<AudioSource> gunshots;
+    bool isGunshotsLoaded = false;
 
     new void Start()
     {
         base.Start();
-        gunshots = targetObject.GetComponent<AudioPrefabManager>().gunshots;
         stoppingDistance = attackRange * 0.9f;
+    }
+
+    new void Update()
+    {
+        base.Update();
+        if (!isGunshotsLoaded)
+        {
+            if (targetObject.GetComponent<AudioPrefabManager>().gunshots.Count > 0)
+            {
+                gunshots = targetObject.GetComponent<AudioPrefabManager>().gunshots;
+                isGunshotsLoaded = true;
+            }
+        }
     }
 
     protected override void Die()
@@ -25,7 +38,7 @@ public class GunFootSoldier : Enemy
         GameObject bullet = Instantiate(bulletPrefab, bulletSpawnPoint.transform.position, Quaternion.identity);
         bullet.GetComponent<GunBullet>().direction = new Vector2(targetObject.transform.position.x - transform.position.x, 0).normalized;
         
-        int gunshotChoice = Random.Range(0, gunshots.Length);
+        int gunshotChoice = Random.Range(0, gunshots.Count);
         AudioSource gunshot = gunshots[gunshotChoice];
         gunshot.PlayOneShot(gunshot.clip);
     }

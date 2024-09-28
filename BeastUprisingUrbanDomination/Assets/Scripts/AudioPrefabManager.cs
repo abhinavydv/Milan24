@@ -5,13 +5,13 @@ using UnityEngine;
 public class AudioPrefabManager: MonoBehaviour
 {
     public GameObject bgmGo;
-    public GameObject[] gunshotsGo;
-    public GameObject[] meleeGo;
+    public List<GameObject> gunshotsGo;
+    public List<GameObject> meleeGo;
     public GameObject laserGo;
 
     public AudioSource bgm;
-    public AudioSource[] gunshots;
-    public AudioSource [] melee;
+    public List<AudioSource> gunshots;
+    public List<AudioSource> melee;
     public AudioSource laser;
 
     void Start()
@@ -22,25 +22,25 @@ public class AudioPrefabManager: MonoBehaviour
     public void ExtractAudioSource()
     {
         GameObject bgmi = Instantiate(bgmGo);
-        GameObject[] gunshotsi = new GameObject[gunshotsGo.Length];
-        GameObject[] meleei = new GameObject[meleeGo.Length];
+        List<GameObject> gunshotsi = new List<GameObject>();
+        List<GameObject> meleei = new List<GameObject>();
         GameObject laseri = Instantiate(laserGo);
 
-        gunshots = new AudioSource[gunshotsGo.Length];
-        melee = new AudioSource[meleeGo.Length];
+        gunshots = new List<AudioSource>();
+        melee = new List<AudioSource>();
 
         bgm = bgmi.GetComponent<AudioSource>();
 
-        for (int i = 0; i < gunshotsGo.Length; i++)
+        for (int i = 0; i < gunshotsGo.Count; i++)
         {
-            gunshotsi[i] = Instantiate(gunshotsGo[i]);
-            gunshots[i] = gunshotsi[i].GetComponent<AudioSource>();
+            gunshotsi.Add(Instantiate(gunshotsGo[i]));
+            gunshots.Add(gunshotsi[i].GetComponent<AudioSource>());
         }
 
-        for (int i = 0; i < meleeGo.Length; i++)
+        for (int i = 0; i < meleeGo.Count; i++)
         {
-            meleei[i] = Instantiate(meleeGo[i]);
-            melee[i] = meleei[i].GetComponent<AudioSource>();
+            meleei.Add(Instantiate(meleeGo[i]));
+            melee.Add(meleei[i].GetComponent<AudioSource>());
         }
 
         laser = laseri.GetComponent<AudioSource>();

@@ -849,6 +849,10 @@ PrefabInstance:
       propertyPath: beastManager
       value: 
       objectReference: {fileID: 1990279851}
+    - target: {fileID: 5888603288805769634, guid: a2665b2ec48d60c4bbee6977434032ad, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 6669559933753607951, guid: a2665b2ec48d60c4bbee6977434032ad, type: 3}
       propertyPath: m_Size.y
       value: 1.5631523

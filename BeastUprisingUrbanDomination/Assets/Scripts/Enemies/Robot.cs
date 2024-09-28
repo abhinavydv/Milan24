@@ -21,7 +21,7 @@ public class Robot : Enemy
     private float nextAttackTime = 0.0f;
     private bool isLaser = false;
 
-    public AudioSource[] gunshots;
+    public List<AudioSource> gunshots;
     public AudioSource laserSound;
 
     new void Start()
@@ -96,8 +96,13 @@ public class Robot : Enemy
         GameObject bullet = Instantiate(bulletPrefab, bulletSpawnPoint.transform.position, Quaternion.identity);
         bullet.GetComponent<GunBullet>().direction = (targetObject.transform.position - bullet.transform.position).normalized;
         bullet.GetComponent<GunBullet>().damage = (int)bulletDamage;
-        int gunshotChoice = Random.Range(0, gunshots.Length);
-        AudioSource gunshot = gunshots[gunshotChoice];
-        gunshot.PlayOneShot(gunshot.clip);
+        int gunshotChoice = Random.Range(0, gunshots.Count);
+        if (gunshotChoice < 0 || gunshotChoice >= gunshots.Count)
+        {
+        } else
+        {
+            AudioSource gunshot = gunshots[gunshotChoice];
+            gunshot.PlayOneShot(gunshot.clip);
+        }
     }
 }
