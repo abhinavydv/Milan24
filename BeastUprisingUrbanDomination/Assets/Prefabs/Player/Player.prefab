@@ -254,7 +254,7 @@ MonoBehaviour:
   attack: 60
   defence: 50
   speed: 70
-  jump: 100
+  jump: 70
   sprayRadius: 0
   sprayCooldown: 0
   sprayCooldownTimer: 0
@@ -626,7 +626,7 @@ MonoBehaviour:
   attack: 90
   defence: 75
   speed: 95
-  jump: 60
+  jump: 50
   sprayRadius: 0
   sprayCooldown: 0
   sprayCooldownTimer: 0

@@ -34,6 +34,10 @@ public class Player : MonoBehaviour
 
     void Update()
     {
+        if (transform.position.y < -50)
+        {
+            isDead = true;
+        }
         if (isDead)
             if (Time.time - deathTime > 1.0f)
                 Quit();
