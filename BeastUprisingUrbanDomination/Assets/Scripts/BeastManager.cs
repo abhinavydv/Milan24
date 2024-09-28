@@ -51,8 +51,8 @@ public class BeastManager : MonoBehaviour
             SwitchToAnimal(monkey);
             timeoutTimer = 0f;
         }
-        Debug.Log(player.currentBeast);
-        Debug.Log(string.Join(", ", cooldownTimers));
+        //Debug.Log(player.currentBeast);
+        //Debug.Log(string.Join(", ", cooldownTimers));
 
         monkeyText.text = timeoutTimer <= 0 ? "" : ((int)timeoutTimer).ToString();
         skunkText.text = cooldownTimers[1] <= 0 ? "" : ((int)cooldownTimers[1]).ToString();
