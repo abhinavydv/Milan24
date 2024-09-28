@@ -23,6 +23,7 @@ public class Player : MonoBehaviour
     Beast beast;
     public float meleeRadius;
     float deathTime = 0f;
+    public BeastManager beastManager;
 
     void Start()
     {
@@ -77,14 +78,15 @@ public class Player : MonoBehaviour
         {
             beast.Ability();
         }
-        else if (Input.GetKeyDown(KeyCode.K))
+        else if (Input.GetKeyDown(KeyCode.K) && currentBeast != beastManager.skunk)
         {
             animator.SetBool("isAttacking", true);
             Attack();
         }
         else
         {
-            animator.SetBool("isAttacking", false);
+            if (currentBeast != beastManager.skunk)
+                animator.SetBool("isAttacking", false);
         }
     }
 

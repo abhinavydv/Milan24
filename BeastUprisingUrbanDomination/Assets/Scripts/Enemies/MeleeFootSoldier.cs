@@ -6,9 +6,14 @@ public class MeleeFootSoldier : Enemy
 {
     public AudioSource[] punches;
 
+    new void Start()
+    {
+        base.Start();
+        punches = targetObject.GetComponent<AudioPrefabManager>().melee;
+    }
+
     protected override void Die()
     {
-        
     }
     override protected void Attack()
     {

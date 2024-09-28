@@ -28,6 +28,8 @@ public class Robot : Enemy
     {
         canAttack = false;  // We won't be using the base class's attack invocation
         base.Start();
+        gunshots = targetObject.GetComponent<AudioPrefabManager>().gunshots;
+        laserSound = targetObject.GetComponent<AudioPrefabManager>().laser;
         stoppingDistance = attackRange * .95f;
     }
 

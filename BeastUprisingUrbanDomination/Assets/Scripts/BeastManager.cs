@@ -7,21 +7,21 @@ public class BeastManager : MonoBehaviour
     public Player player;
     public GameObject monkey;
     public GameObject skunk;
-    public GameObject elephant;
-    public GameObject lion;
+    // public GameObject elephant;
+    public GameObject bear;
     public Animator[] animators;
 
     public bool skunkUnlocked = true;
-    public bool elephantUnlocked = true;
-    public bool lionUnlocked = true;
+    // public bool elephantUnlocked = true;
+    public bool bearUnlocked = true;
 
     public float cooldownSkunk = 2f;
-    public float cooldownElephant = 3f;
-    public float cooldownLion = 4f;
+    // public float cooldownElephant = 3f;
+    public float cooldownBear = 4f;
 
     public float timeoutSkunk = 5f;
-    public float timeoutElephant = 10f;
-    public float timeoutLion = 7f;
+    // public float timeoutElephant = 10f;
+    public float timeoutBear = 7f;
 
     float[] cooldownTimers;
     float timeoutTimer;
@@ -55,8 +55,8 @@ public class BeastManager : MonoBehaviour
     {
         if (player.currentBeast == monkey) cooldownTimers[0] = 0f;
         else if (player.currentBeast == skunk) cooldownTimers[1] = cooldownSkunk;
-        else if (player.currentBeast == elephant) cooldownTimers[2] = cooldownElephant;
-        else if (player.currentBeast == lion) cooldownTimers[3] = cooldownLion;
+        // else if (player.currentBeast == elephant) cooldownTimers[2] = cooldownElephant;
+        else if (player.currentBeast == bear) cooldownTimers[2] = cooldownBear;
 
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
@@ -72,18 +72,18 @@ public class BeastManager : MonoBehaviour
             timeoutTimer = timeoutSkunk;
         }
 
-        else if (Input.GetKeyDown(KeyCode.Alpha3) && elephantUnlocked && cooldownTimers[2] <= 0)
-        {
-            if (player.currentBeast == elephant) return;
-            SwitchToAnimal(elephant);
-            timeoutTimer = timeoutElephant;
-        }
+        //else if (Input.GetKeyDown(KeyCode.Alpha3) && elephantUnlocked && cooldownTimers[2] <= 0)
+        //{
+        //    if (player.currentBeast == elephant) return;
+        //    SwitchToAnimal(elephant);
+        //    timeoutTimer = timeoutElephant;
+        //}
 
-        else if (Input.GetKeyDown(KeyCode.Alpha4) && lionUnlocked && cooldownTimers[3] <= 0)
+        else if (Input.GetKeyDown(KeyCode.Alpha4) && bearUnlocked && cooldownTimers[2] <= 0)
         {
-            if (player.currentBeast == lion) return;
-            SwitchToAnimal(lion);
-            timeoutTimer = timeoutLion;
+            if (player.currentBeast == bear) return;
+            SwitchToAnimal(bear);
+            timeoutTimer = timeoutBear;
         }
     }
 

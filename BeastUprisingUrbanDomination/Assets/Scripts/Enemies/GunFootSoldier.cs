@@ -7,11 +7,12 @@ public class GunFootSoldier : Enemy
     [SerializeField] GameObject bulletPrefab;
     [SerializeField] GameObject bulletSpawnPoint;
 
-    public AudioSource[] gunshots;
+    AudioSource[] gunshots;
 
     new void Start()
     {
         base.Start();
+        gunshots = targetObject.GetComponent<AudioPrefabManager>().gunshots;
         stoppingDistance = attackRange * 0.9f;
     }
 
