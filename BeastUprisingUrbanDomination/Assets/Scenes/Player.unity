@@ -778,17 +778,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 080e26171254bec4ab63a1c2df5c0602, type: 3}
---- !u!114 &1990279851 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8654585017595144072, guid: a2665b2ec48d60c4bbee6977434032ad, type: 3}
-  m_PrefabInstance: {fileID: 6443458586553073467}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b7cd613b47d47c547aa11d6b47ffe514, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &6443458586553073467
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -837,62 +826,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1138694147225408127, guid: a2665b2ec48d60c4bbee6977434032ad, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3032155909230053563, guid: a2665b2ec48d60c4bbee6977434032ad, type: 3}
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 5807306137659089035, guid: a2665b2ec48d60c4bbee6977434032ad, type: 3}
-      propertyPath: beastManager
-      value: 
-      objectReference: {fileID: 1990279851}
-    - target: {fileID: 5888603288805769634, guid: a2665b2ec48d60c4bbee6977434032ad, type: 3}
-      propertyPath: m_Constraints
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 6669559933753607951, guid: a2665b2ec48d60c4bbee6977434032ad, type: 3}
-      propertyPath: m_Size.y
-      value: 1.5631523
-      objectReference: {fileID: 0}
-    - target: {fileID: 6669559933753607951, guid: a2665b2ec48d60c4bbee6977434032ad, type: 3}
-      propertyPath: m_Offset.y
-      value: 0.2613094
-      objectReference: {fileID: 0}
-    - target: {fileID: 6923727077947676902, guid: a2665b2ec48d60c4bbee6977434032ad, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.044
-      objectReference: {fileID: 0}
-    - target: {fileID: 6923727077947676902, guid: a2665b2ec48d60c4bbee6977434032ad, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.257
-      objectReference: {fileID: 0}
-    - target: {fileID: 7708838166020061849, guid: a2665b2ec48d60c4bbee6977434032ad, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.213
-      objectReference: {fileID: 0}
-    - target: {fileID: 7708838166020061849, guid: a2665b2ec48d60c4bbee6977434032ad, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.405
-      objectReference: {fileID: 0}
-    - target: {fileID: 8155314896885920855, guid: a2665b2ec48d60c4bbee6977434032ad, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.06
-      objectReference: {fileID: 0}
-    - target: {fileID: 8155314896885920855, guid: a2665b2ec48d60c4bbee6977434032ad, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.241
-      objectReference: {fileID: 0}
-    - target: {fileID: 8387420523096252751, guid: a2665b2ec48d60c4bbee6977434032ad, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8654585017595144072, guid: a2665b2ec48d60c4bbee6977434032ad, type: 3}
-      propertyPath: elephant
-      value: 
-      objectReference: {fileID: 1051925417}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
