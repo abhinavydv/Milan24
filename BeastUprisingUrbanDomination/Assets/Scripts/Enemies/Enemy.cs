@@ -23,7 +23,7 @@ public abstract class Enemy : MonoBehaviour
     [SerializeField] protected float stoppingDistance = 1.0f;
     protected Vector3 target = new Vector3(0, 0, 0);
     protected bool isAttacking = false;
-    protected bool isDead = false;
+    public bool isDead = false;
     public float multiplier = 1.0f; // A multiplier to increase/decrease speed, attackSpeed of the enemy
     protected int direction = 1; // 1 for right, -1 for left
     protected bool isStunned = false;
