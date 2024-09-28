@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 1138694147225408127}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.13, y: 0.04, z: 0}
+  m_LocalPosition: {x: -0.044, y: 0.257, z: 0}
   m_LocalScale: {x: 8.841759, y: 9.493292, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -160,7 +160,7 @@ Transform:
   m_GameObject: {fileID: 1676838568152895222}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.02, y: 0.05, z: 0}
+  m_LocalPosition: {x: -0.06, y: 0.241, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -388,7 +388,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.2613094}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -399,7 +399,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1, y: 1.5631523}
   m_EdgeRadius: 0
 --- !u!50 &5888603288805769634
 Rigidbody2D:
@@ -453,6 +453,7 @@ MonoBehaviour:
   jump: 0
   isDead: 0
   meleeRadius: 1
+  beastManager: {fileID: 8654585017595144072}
 --- !u!114 &8654585017595144072
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -468,18 +469,14 @@ MonoBehaviour:
   player: {fileID: 5807306137659089035}
   monkey: {fileID: 1676838568152895222}
   skunk: {fileID: 1138694147225408127}
-  elephant: {fileID: 0}
-  lion: {fileID: 8387420523096252751}
+  bear: {fileID: 0}
   animators: []
   skunkUnlocked: 1
-  elephantUnlocked: 1
-  lionUnlocked: 1
+  bearUnlocked: 1
   cooldownSkunk: 2
-  cooldownElephant: 3
-  cooldownLion: 4
+  cooldownBear: 4
   timeoutSkunk: 5
-  timeoutElephant: 10
-  timeoutLion: 7
+  timeoutBear: 7
 --- !u!114 &2567843594572920592
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -503,6 +500,10 @@ MonoBehaviour:
   - {fileID: 5414659928227034099, guid: 9f433d7f345d67c47b95c57a7ba57c92, type: 3}
   - {fileID: 4978902590342865907, guid: 9ece8eb3d5d0d1442a929e372c1b8ff9, type: 3}
   laserGo: {fileID: 8457841324435043632, guid: 94808bc1eb689d949947b14dcd13654b, type: 3}
+  bgm: {fileID: 0}
+  gunshots: []
+  melee: []
+  laser: {fileID: 0}
 --- !u!1 &8387420523096252751
 GameObject:
   m_ObjectHideFlags: 0
@@ -531,7 +532,7 @@ Transform:
   m_GameObject: {fileID: 8387420523096252751}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.18, y: -0.05, z: 0}
+  m_LocalPosition: {x: 0.213, y: 0.405, z: 0}
   m_LocalScale: {x: 3.8128085, y: 3.3421826, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
