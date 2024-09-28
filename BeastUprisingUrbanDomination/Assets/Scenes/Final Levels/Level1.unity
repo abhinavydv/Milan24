@@ -594,6 +594,10 @@ PrefabInstance:
       propertyPath: monkeyText
       value: 
       objectReference: {fileID: 686234756}
+    - target: {fileID: 4429019032076406197, guid: 7407356b62ce6b94ba9e51526a2ddc83, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7784466450102261771, guid: 7407356b62ce6b94ba9e51526a2ddc83, type: 3}
       propertyPath: m_Name
       value: PlayerWithHealth
@@ -798,6 +802,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1270175590363846605, guid: 97e15e520cd58b84f9fab57a7f88ccb3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2690922879082857280, guid: 97e15e520cd58b84f9fab57a7f88ccb3, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3114587559483829420, guid: 97e15e520cd58b84f9fab57a7f88ccb3, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3114587559483829420, guid: 97e15e520cd58b84f9fab57a7f88ccb3, type: 3}
+      propertyPath: m_RenderMode
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3411689329090459068, guid: 97e15e520cd58b84f9fab57a7f88ccb3, type: 3}
@@ -1117,7 +1133,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1569568749}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
