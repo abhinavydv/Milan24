@@ -10,7 +10,7 @@ public class Player : MonoBehaviour
     public GameObject currentBeast = null;
     public Animator animator;
 
-    public float health;
+    //public float health;
     public float attack;
     public float defence;
     public float speed;
@@ -24,10 +24,12 @@ public class Player : MonoBehaviour
     public float meleeRadius;
     float deathTime = 0f;
     public BeastManager beastManager;
+    HealthSystemForDummies healthSystem;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        healthSystem = GetComponent<HealthSystemForDummies>();
     }
 
     void Update()
@@ -104,12 +106,14 @@ public class Player : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
-        health -= damage / ((defence + 100f) / 100f);
-        if (health <= 0)
+        float effectiveDamage = damage / ((defence + 100f) / 100f);
+        healthSystem.AddToCurrentHealth(-effectiveDamage);
+        if (healthSystem.CurrentHealth <= 0)
         {
             isDead = true;
             deathTime = Time.time;
             animator.SetBool("isDead", true);
+            healthSystem.Kill();
             //Die();
         }
     }

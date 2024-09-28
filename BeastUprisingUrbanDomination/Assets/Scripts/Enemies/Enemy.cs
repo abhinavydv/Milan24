@@ -13,6 +13,7 @@ public abstract class Enemy : MonoBehaviour
     [SerializeField] protected float attackRange = 1.2f;
     [SerializeField] protected float seekDistance = 30.0f;
     protected bool canAttack = true;
+    HealthSystemForDummies healthSystem;
 
     // references
     protected GameObject targetObject;
@@ -36,6 +37,7 @@ public abstract class Enemy : MonoBehaviour
     protected void Start()
     {
         targetObject = GameObject.FindGameObjectWithTag("Player");
+        healthSystem = GetComponent<HealthSystemForDummies>();
     }
 
     protected void Update()
@@ -115,12 +117,14 @@ public abstract class Enemy : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
-        health -= damage / ((defence + 100f)/100f);
-        if (health <= 0)
+        float effectiveDamage = damage / ((defence + 100f) / 100f);
+        healthSystem.AddToCurrentHealth(-effectiveDamage);
+        if (healthSystem.CurrentHealth <= 0)
         {
             isDead = true;
             deathTime = Time.time;
             animator.SetBool("isDead", true);
+            healthSystem.Kill();
             Die();
         }
     }
