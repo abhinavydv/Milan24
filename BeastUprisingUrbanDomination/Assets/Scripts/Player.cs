@@ -46,7 +46,7 @@ public class Player : MonoBehaviour
         jump = beast.jump / 10f;
 
         isGrounded = Physics2D.OverlapCircle(transform.position, groundCheckRadius, groundLayer);
-        if (isGrounded)
+        if (isGrounded && currentBeast == beastManager.monkey)
             canDoubleJump = true;
 
         float moveX = Input.GetAxis("Horizontal");

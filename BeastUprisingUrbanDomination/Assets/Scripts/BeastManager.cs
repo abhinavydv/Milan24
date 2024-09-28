@@ -32,7 +32,7 @@ public class BeastManager : MonoBehaviour
         player.currentBeast = monkey;
         player.currentBeast.SetActive(true);
 
-        cooldownTimers = new float[] {0f, 0f, 0f, 0f};
+        cooldownTimers = new float[] {0f, 0f, 0f};
     }
 
     void Update()
@@ -79,7 +79,7 @@ public class BeastManager : MonoBehaviour
         //    timeoutTimer = timeoutElephant;
         //}
 
-        else if (Input.GetKeyDown(KeyCode.Alpha4) && bearUnlocked && cooldownTimers[2] <= 0)
+        else if (Input.GetKeyDown(KeyCode.Alpha3) && bearUnlocked && cooldownTimers[2] <= 0)
         {
             if (player.currentBeast == bear) return;
             SwitchToAnimal(bear);
