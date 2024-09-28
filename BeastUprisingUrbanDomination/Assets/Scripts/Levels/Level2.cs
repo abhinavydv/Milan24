@@ -29,6 +29,7 @@ public class Level2 : MonoBehaviour
         if (collectibles.Count == 0 && enemies.Count == 0)
         {
             Debug.Log("Level complete!");
+            Application.Quit();
         }
     }
 }

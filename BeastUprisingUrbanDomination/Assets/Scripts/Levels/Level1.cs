@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class Level1 : MonoBehaviour
 {
@@ -29,6 +31,7 @@ public class Level1 : MonoBehaviour
         if (collectibles.Count == 0 && enemies.Count == 0)
         {
             Debug.Log("Level complete!");
+            SceneManager.LoadScene("Scenes/Final Levels/Level2");
         }
     }
 }

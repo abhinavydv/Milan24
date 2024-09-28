@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -118,6 +119,7 @@ public class Player : MonoBehaviour
             deathTime = Time.time;
             animator.SetBool("isDead", true);
             healthSystem.Kill();
+            SceneManager.LoadScene("Scenes/Final Levels/Level1");
             //Die();
         }
     }
