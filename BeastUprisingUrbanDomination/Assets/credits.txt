@@ -1,3 +1,5 @@
+Sprites
+-------
 free-city-backgrounds-pixel-art: https://free-game-assets.itch.io/free-city-backgrounds-pixel-art
 tileset: https://incolgames.itch.io/dungeon-platformer-tile-set-pixel-art
 Buildings: https://netherzapdos.itch.io/pixel-spaces?download
@@ -7,5 +9,17 @@ Robot: https://elthen.itch.io/2d-pixel-art-military-incursion-bot-sprites
 Monkey: https://www.gameartguppy.com/shop/monkey-game-character-sprites/
 Bear: https://spritedatabase.net/file/12600
 Skunk: https://itchio-mirror.cb031a832f44726753d6267436f3b414.r2.cloudflarestorage.com/upload2/game/1054877/3884992?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=3edfcce40115d057d0b5606758e7e9ee%2F20240927%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20240927T185711Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=e14e479d755542aa5a9df0973d254d4f495dbaca95a105f7209dd54e240e7f14
-Lion: https://spritedatabase.net/file/2748
 Key: https://drxwat.itch.io/pixel-art-key
+
+Audio
+-----
+BGM: https://www.chosic.com/download-audio/25860/
+Superepic by Alexander Nakarada | https://creatorchords.com/
+Music promoted by https://www.chosic.com/free-music/all/
+Attribution 4.0 International (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/ 
+
+SFX: 
+https://pixabay.com/sound-effects/face-punch-91909/
+https://pixabay.com/sound-effects/fist-punch-or-kick-7171/
+https://assetstore.unity.com/packages/audio/sound-fx/free-sound-effects-pack-155776
